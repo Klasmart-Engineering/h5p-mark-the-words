@@ -1,5 +1,6 @@
 /* The main containers for the module, specific to this module. */
 .h5p-mark-the-words {
+  font-family: 'Roboto', sans-serif;
   position: relative;
   background: rgba(255, 255, 255, 0.9);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e6FFFFFF,endColorstr=#e6FFFFFF);

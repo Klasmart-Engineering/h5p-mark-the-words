@@ -382,10 +382,11 @@ H5P.MarkTheWords = (function ($, Question, Word, KeyboardNav, XapiGenerator) {
       if (this.params.behaviour.enableSolutionsButton && (answers.correct < this.answers)) {
         this.showButton('show-solution');
       }
-      if (this.params.behaviour.enableRetry) {
-        this.showButton('try-again');
-      }
     }
+    if (this.params.behaviour.enableRetry) {
+      this.showButton('try-again');
+    }
+  
 
     self.waitForARIA(function () {
       self.$a11yClickableTextLabel.html(self.params.a11yCheckingHeader + ' - ' + self.params.a11yClickableTextLabel);
